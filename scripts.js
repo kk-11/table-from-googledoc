@@ -21,6 +21,7 @@ function createTable(tableData) {
 			if(index === 1 ) {
 				var link = document.createElement('a');
 				link.setAttribute('href', cellData);
+				link.setAttribute('target', '_blank');
 				link.innerHTML = 'VIEW';
 				cell.appendChild(link);
 			} else {
